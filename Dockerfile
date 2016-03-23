@@ -2,7 +2,7 @@ FROM java:8-jdk
 MAINTAINER Nicholas Iaquinto <nickiaq@gmail.com>
 
 # Gradle
-ENV GRADLE_VERSION 2.7
+ENV GRADLE_VERSION 2.12
 ENV GRADLE_SHA cde43b90945b5304c43ee36e58aab4cc6fb3a3d5f9bd9449bb1709a68371cb06
 
 RUN cd /usr/lib \
