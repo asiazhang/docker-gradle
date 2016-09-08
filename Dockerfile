@@ -2,7 +2,7 @@ FROM java:8-jdk
 MAINTAINER Nicholas Iaquinto <nickiaq@gmail.com>
 
 # Gradle
-ENV GRADLE_VERSION 2.12
+ENV GRADLE_VERSION 3.0
 
 RUN cd /usr/lib \
  && curl -fl https://downloads.gradle.org/distributions/gradle-${GRADLE_VERSION}-bin.zip -o gradle-bin.zip \
